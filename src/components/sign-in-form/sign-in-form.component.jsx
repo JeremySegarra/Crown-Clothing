@@ -34,6 +34,7 @@ const SignInForm = () => {
     createUserDocumentFromAuth(user);
   };
 
+  console.log("testing ssh");
   const handleSubmit = async (event) => {
     event.preventDefault();
 
