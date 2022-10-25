@@ -39,6 +39,7 @@ googleProvider.setCustomParameters({
 });
 
 export const auth = getAuth();
+console.log("This is the auth in firebase utils: ", auth);
 
 export const signInWithGooglePopup = () =>
   signInWithPopup(auth, googleProvider);
